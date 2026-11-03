@@ -1,7 +1,7 @@
 PImage silhouette;
 
 void setup() {
-   size(600,700);
+   size(900,700);
    background(255);
    silhouette = loadImage("silhouette.png");
 }
