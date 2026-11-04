@@ -11,6 +11,13 @@ void draw() {
   noFill();
   image(silhouette, 100, 50, 400, 600);
   bodyKey();
+  
+  // Biceps: 10 reps, 32kg
+  fill(0, 255, 0);
+  noStroke();
+  ellipse(200, 200, 10, 10);
+  fill(0);
+  text("32 kg", 215, 200);
 }
 
 void bodyKey() {
